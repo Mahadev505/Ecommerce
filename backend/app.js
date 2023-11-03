@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ['http://localhost:3000'],
+  origin: ['https://shoppo-6kglxsqtm-mahadevs-projects-7f30d1a2.vercel.app/test','https://shoppo.vercel.app','https://shoppo-6kglxsqtm-mahadevs-projects-7f30d1a2.vercel.app'],
   credentials: true
 }));
 
@@ -16,7 +16,7 @@ app.use("/test", (req, res) => {
   res.send("Hello world!");
 });
 
-app.use(bodyParser.urlencoded({ extended: true, limit: "500mb" }));
+app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 
 // config
 if (process.env.NODE_ENV !== "PRODUCTION") {
