@@ -58,7 +58,7 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+                src="https://drive.google.com/file/d/1i-yogwu79beC-zzkqwQDZJqH39JKmSbE/view?usp=drive_link"
                 alt=""
               />
             </Link>
